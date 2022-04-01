@@ -1,9 +1,13 @@
-
 A = int(input("Enter the number= "))
-
 B = int(input("Enter the second number= "))
-
-c = A + B
-
-print(c)
+if(A>B):
+  c = A + B
+  print(c)
+  elif(A<B):
+  C= A*B
+  elif(A==B):
+  C= A/B
+  else:
+  print("the numbers are invalid")
+  
 
