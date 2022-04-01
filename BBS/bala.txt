@@ -3,11 +3,11 @@ B = int(input("Enter the second number= "))
 if(A>B):
   c = A + B
   print(c)
-  elif(A<B):
-  C= A*B
-  elif(A==B):
-  C= A/B
-  else:
+elif(A<B):
+  C = A * B
+elif(A==B):
+  C = A/B
+else:
   print("the numbers are invalid")
   
 
